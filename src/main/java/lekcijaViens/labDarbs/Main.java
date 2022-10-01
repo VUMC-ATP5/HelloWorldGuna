@@ -12,7 +12,7 @@ public class Main {
         int weight = 62;
         int height = 172;
         int workExperience = 21;
-            // maksimālā int vērtība
+            // maksimālā/minimālā int vērtība
         int maxInt = 2147483647;
         int minInt = -2147483648;
             // byte pieņem no -128 līdz 127
