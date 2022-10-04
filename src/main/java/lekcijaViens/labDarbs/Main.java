@@ -73,5 +73,19 @@ public class Main {
         // ja skaitļus dalot nepieciešams izvadīt atlikumu, tad dalīšanas zīmes vietā raksta %
         result = 13 % 2;
         System.out.println(result);
+
+        //Zivs apraksts
+        String suga = "Līdaka";
+        boolean vaiIrSaldudens = true;
+        boolean vaiSastopamaLatvija = true;
+        double garumsCm = 103.6;
+        int svarsGr = 12086;
+        double vecumsGados = 8.2;
+        char dzimums = 'S';
+        String udenstilpeKurMit = "Alūksnes ezers";
+        int cikReizesNokerta = 2;
+        boolean vaiIrDziva = false;
+
+
     }
 }
