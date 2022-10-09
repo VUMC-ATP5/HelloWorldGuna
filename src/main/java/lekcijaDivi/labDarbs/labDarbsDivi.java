@@ -135,7 +135,7 @@ public class labDarbsDivi {
             } else {
                 System.out.println("Skaitlis " + skaitlisIevaditais + " ir negatīvs skaitlis.");
             }
-                
+
             }
         }
 
