@@ -126,5 +126,35 @@ public class HomeWorkTwo {
         } else {
             System.out.println("Luksofors nav kārtībā, ceļu šķērso kā neregulētā krustojumā!");
         }
+        /* 5. Uzrakstīt atsevišķi metodi printBusinessCard, kura neatgriež neko, bet izvada ekrānā
+         cilvēka vizītkarti ar cilvēka vārdu, uzvārdu, telefonu un dzimšanas gadu.
+         main metodē trīs reizes izsaukt šo metodi un uz ekrāna parādīt vizītkarti 3 reizes. */
+
+        printBusinessCard();
+        printBusinessCard();
+        printBusinessCard();
+
+        /* 6. Izveidot jaunu metodi kā 5. uzdevumā, bet ar nosaukumu printBusinessCardTwo(),
+        lai šī metode pieņem kā argumentus vārdu, uzvārdu, telefonu un dzimšanas gadu
+        un izvada vizītkarti uz ekrāna. Metodei nevajag atgriez nekādu vērtību.
+        Metodi izsaukt 2 reizes main() metodē ar dažādiem parametriem*/
+
+        printBusinessCardTwo("Rolfs","Vendiņš","+371 29984495", 1979);
+        printBusinessCardTwo("Anna", "Panna", "12345678", 2000);
+    }
+    public static void printBusinessCard(){
+        System.out.println("\nCILVĒKA vizītkarte :) \n@@@@@@@@@@@@@@@@@@@");
+        System.out.println("vārds: Guna \nuzvārds: Vendiņa");
+        System.out.println("tālrunis: +371 22314278");
+        System.out.println("dzimšanas gads: 1978.");
+        System.out.println("$$$$$$$$$$$$$$$$$$$$");
+    }
+    public static void printBusinessCardTwo(String name, String surname, String phone, int birthYear){
+        System.out.println("\nVizītkarte \n@@@@@@@@@@@@@@@@@@@");
+        System.out.println("vārds: " + name);
+        System.out.println("uzvārds: " + surname);
+        System.out.println("tālrunis: " + phone);
+        System.out.println("dzimšanas gads: " + birthYear + ".");
+        System.out.println("$$$$$$$$$$$$$$$$$$$$");
     }
 }
