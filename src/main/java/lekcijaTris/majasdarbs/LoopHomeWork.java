@@ -49,7 +49,7 @@ public class LoopHomeWork {
         }
         System.out.println("Skaitļa " + n + " faktoriāls ir " + fact);
         return fact;
-        
+
     }
 }
 
