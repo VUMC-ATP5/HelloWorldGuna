@@ -13,7 +13,7 @@ public class LoopHomeWork {
     cikli();
 
     fillEvenNumbers();
-    
+
     }
 
         public static void sumNumbers(){
