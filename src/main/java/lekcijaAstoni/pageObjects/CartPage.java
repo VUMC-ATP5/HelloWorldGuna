@@ -4,21 +4,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class CartPage {
-    WebDriver parluks;
-
-    private By checkoutButton = By.id("checkout");
-    private By pageTitle = By.className("title");
-
+public class CartPage extends BasePage{
     public CartPage(WebDriver parluks) {
-        this.parluks = parluks;
+        super(parluks);
     }
+    private By checkoutButton = By.id("checkout");
     public WebElement getCheckoutButton(){
         return parluks.findElement(checkoutButton);
     }
-    public WebElement getPagetitle(){
-        return parluks.findElement(pageTitle);
-    }
+
 
 
 }

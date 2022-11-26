@@ -23,7 +23,7 @@ public class TestScenarijsDivi extends BaseTest {
         CartPage grozaLapa = new CartPage(parluks);
         produktuLapa.getCartButton().click();
         Thread.sleep(5000); //lai paskatītos, vai nostrādā
-        Assert.assertEquals(grozaLapa.getPagetitle().getText(), "YOUR CART");
+        Assert.assertEquals(grozaLapa.getPageTitle().getText(), "YOUR CART");
 
         //doties uz čekautu
         grozaLapa.getCheckoutButton().click();
